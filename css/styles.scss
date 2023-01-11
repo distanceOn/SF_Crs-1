@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,6 +18,7 @@ a {
     padding: 0 10.386%;
 }
 
+// first
 .header {
     background-color: #F6F2F2;
     display: flex;
@@ -105,3 +109,111 @@ a {
         }
     }
 }
+
+// first
+
+// second
+.provide {
+    margin-top: 107px;
+    margin-bottom: 98px;
+    display: flex;
+    gap: 8.233%;
+
+    &__ask {
+        display: flex;
+        flex-direction: column;
+        width: 43.085%;
+    }
+
+    &__h2 {
+        width: 97%;
+        font-size: 2.625rem;
+        line-height: 131%;
+        letter-spacing: 0.422159px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 50px;
+    }
+
+    &__p {
+        font-size: 1rem;
+        line-height: 175%;
+        color: #000000;
+    }
+
+    &__button {
+        font-size: 18.0412px;
+        line-height: 188%;
+        letter-spacing: 0.3195px;
+        color: #FF2D2D;
+        margin-top: 64px;
+        width: 42.115%;
+        height: 55px;
+        background: rgba(0, 0, 0, 0.0001);
+        border: 2px solid #FF0000;
+        border-radius: 5px;
+    }
+
+    &__h3 {
+        font-size: 1.5rem;
+        letter-spacing: 0.271838px;
+        margin-bottom: 13px;
+        color: #000000;
+
+    }
+
+    &__options {
+        width: 48.681%;
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+
+        &-block {
+            display: flex;
+            gap: 18px;
+        }
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+
+            &::before {
+                margin-bottom: 32px;
+            }
+
+            &_1 {
+                width: 301px;
+
+                &::before {
+                    content: url(/imgs/icons/icon-mech.svg);
+                }
+            }
+
+            &_2 {
+                width: 287px;
+
+                &::before {
+                    content: url(/imgs/icons/icon-pen.svg);
+                }
+            }
+
+            &_3 {
+                width: 301px;
+
+                &::before {
+                    content: url(/imgs/icons/icon-dimond.svg);
+                }
+            }
+
+            &_4 {
+                width: 289px;
+
+                &::before {
+                    content: url(/imgs/icons/icon-auto.svg);
+                }
+            }
+        }
+    }
+}
+
+// second
