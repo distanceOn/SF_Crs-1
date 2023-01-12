@@ -431,4 +431,140 @@ a {
   outline: none;
   border: none;
   border-radius: 5px;
+}
+
+.touch {
+  margin-right: -13%;
+  padding: 104px 0;
+  display: flex;
+  gap: 5.787%;
+}
+.touch__block {
+  width: 53.069%;
+}
+.touch__text {
+  width: 100%;
+  margin-bottom: 73px;
+}
+.touch__h2 {
+  width: 43.617%;
+  font-size: 2.625rem;
+  letter-spacing: 0.3834px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 45px;
+}
+.touch__p {
+  width: 100%;
+  font-size: 15.9953px;
+  line-height: 175%;
+  color: #000000;
+  margin-bottom: 58px;
+}
+.touch__line {
+  width: 17.819%;
+  height: 2px;
+  background-color: #FF2D2D;
+}
+.touch__form {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+.touch__form-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.touch__form-input {
+  background: rgba(0, 0, 0, 0.1);
+  height: 30vh;
+  box-sizing: border-box;
+  padding: 32px 53px;
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+}
+.touch__form-input::-moz-placeholder {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+}
+.touch__form-input:-ms-input-placeholder {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+}
+.touch__form-input::placeholder {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+}
+.touch__form-input_mini {
+  background: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 46.5%;
+  padding: 25px 50px;
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.touch__form-input_mini::-moz-placeholder {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+}
+.touch__form-input_mini:-ms-input-placeholder {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+}
+.touch__form-input_mini::placeholder {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #000000;
+}
+.touch__form-button {
+  padding: 24px 0;
+  font-size: 1.125rem;
+  line-height: 189%;
+  letter-spacing: 0.317046px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #FF3B3B;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.touch__contacts {
+  align-self: flex-end;
+  box-sizing: border-box;
+  background-color: #2D2D2D;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding-left: 6.474%;
+  padding-top: 6.9%;
+  padding-bottom: 9.15%;
+  padding-right: 17.2%;
+}
+.touch__contacts-item {
+  font-size: 1rem;
+  line-height: 175%;
+  color: #FFFFFF;
+}
+.touch__h3 {
+  font-size: 1.125rem;
+  line-height: 189%;
+  letter-spacing: 0.317046px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */
