@@ -638,3 +638,31 @@ a {
 }
 
 // sixth
+
+// seventh
+
+.footer {
+    background-color: #313030;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 32px;
+
+    &__copyright {
+        font-size: 1rem;
+        line-height: 162%;
+        color: #B8B8B8;
+    }
+
+    &__social {
+        display: flex;
+        gap: 18px;
+
+        &-item {
+            width: 33px;
+            height: 33px;
+        }
+    }
+}
+
+// seventh

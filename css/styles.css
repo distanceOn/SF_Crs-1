@@ -567,4 +567,25 @@ a {
   letter-spacing: 0.317046px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.footer {
+  background-color: #313030;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+.footer__copyright {
+  font-size: 1rem;
+  line-height: 162%;
+  color: #B8B8B8;
+}
+.footer__social {
+  display: flex;
+  gap: 18px;
+}
+.footer__social-item {
+  width: 33px;
+  height: 33px;
 }/*# sourceMappingURL=styles.css.map */
